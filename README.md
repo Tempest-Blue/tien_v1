@@ -1,2 +1,2 @@
 # Tempest
-This is Tien Vo's personal website
+Tien Vo's personal website

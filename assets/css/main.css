@@ -2958,7 +2958,8 @@
 
 		.wrapper.style5 {
 			background-color: #ffffff;
-			color: #4E4852;
+			/*color: #4E4852; */
+			color: #0166c4;
 		}
 
 			.wrapper.style5 strong, .wrapper.style5 b {

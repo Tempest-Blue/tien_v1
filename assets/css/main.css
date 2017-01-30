@@ -2799,9 +2799,9 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
-			/*color: #d3d4e4;*/
-			color: #0166c4;
+			/*background-color: #505393;*/
+			background-color: #0166c4;
+			color: #d3d4e4;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {

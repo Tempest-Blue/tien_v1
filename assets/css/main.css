@@ -2800,7 +2800,8 @@
 
 		.wrapper.style3 {
 			background-color: #505393;
-			color: #d3d4e4;
+			/*color: #d3d4e4;*/
+			color: #0166c4;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
@@ -2958,8 +2959,7 @@
 
 		.wrapper.style5 {
 			background-color: #ffffff;
-			/*color: #4E4852; */
-			color: #0166c4;
+			color: #4E4852;
 		}
 
 			.wrapper.style5 strong, .wrapper.style5 b {

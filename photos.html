@@ -44,7 +44,7 @@
 							<div class="inner">
 								<div class="box alt">
 										<div class="row uniform 50%">
-											<div class="12u"><center>Click images for full resolution</center></div>
+											<div class="12u"><center>Click images for full resolution TEST</center></div>
 											<div class="12u"><span class="image fit"><a href="images/full/1.jpg"><img src="images/1.jpg" alt=""  /></a></span></div>
 											<div class="4u"><span class="image fit"><a href="images/full/2.jpg"><img src="images/2.jpg" alt=""   /></a></span></div>
 											<div class="4u"><span class="image fit"><a href="images/full/3.jpg"><img src="images/3.jpg" alt=""   /></a></span></div>
@@ -75,14 +75,14 @@
 											<div class="4u"><span class="image fit"><a href="images/full/24.jpg"><img src="images/24.jpg" alt="" /></a></span></div>
 											<div class="4u"><span class="image fit"><a href="images/full/25.jpg"><img src="images/25.jpg" alt="" /></a></span></div>
 										</div>
+										<div class="row uniform 50%">
 										<?php
-												$dirname = "images/";
-												$images = glob($dirname."*.jpg");
-
+												$images = glob("images/*.jpg");
 												foreach($images as $image) {
 												    echo '<div class="4u"><span class="image fit"><a href="images/full/20.jpg"><img src="'.$image.'" alt=""/></a></span></div>';
 												}
 										?>
+										</div>
 								</div>
 							</div>
 						</section>

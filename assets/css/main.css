@@ -3278,7 +3278,8 @@
 
 			#header h1 a {
 				border: 0;
-				display: block;
+				/*display: block;*/
+				display: inline;
 				height: inherit;
 				line-height: inherit;
 			}

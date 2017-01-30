@@ -32,6 +32,7 @@
 						</nav>
 					</header>
 
+
 				<!-- Main -->
 					<article id="main">
 						<header>
@@ -39,7 +40,32 @@
 							<p>Mark Rippetoe's Starting Strength</p>
 						</header>
 						<section class="wrapper style5">
-							<iframe src="https://docs.google.com/spreadsheets/d/1pFMCVuRapQii6Q2RkTkWDA4b5zZzSdecmn0Mdx1beUM/pubhtml?widget=true&amp;headers=false" width="80%" height="80%"></iframe>
+					    <script>
+					    		for (var i = 0, j = iFrames.length; i < j; i++) {
+					    		  iFrames[i].style.height = iFrames[i].contentWindow.document.body.offsetHeight + 'px';}
+					    	    }
+					    	    
+					        	if ($.browser.safari || $.browser.opera) { 
+					        	
+					        	   iFrames.load(function(){
+					        	       setTimeout(iResize, 0);
+					               });
+					            
+					        	   for (var i = 0, j = iFrames.length; i < j; i++) {
+					        			var iSource = iFrames[i].src;
+					        			iFrames[i].src = '';
+					        			iFrames[i].src = iSource;
+					               }
+					               
+					        	} else {
+					        	   iFrames.load(function() { 
+					        	       this.style.height = this.contentWindow.document.body.offsetHeight + 'px';
+					        	   });
+					        	}
+					        
+					        });
+						</script>
+							<iframe src="https://docs.google.com/spreadsheets/d/1pFMCVuRapQii6Q2RkTkWDA4b5zZzSdecmn0Mdx1beUM/pubhtml?widget=true&amp;headers=false" class="iframe" scrolling="no" frameborder="0"></iframe>
 						</section>
 					</article>
 

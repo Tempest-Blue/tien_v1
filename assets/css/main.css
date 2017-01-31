@@ -2428,7 +2428,8 @@
 
 			.features li:before {
 				display: block;
-				color: #00ffcc;
+				/*color: #00ffcc; Teal*/
+				color: #4484CE; Blue
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -2799,7 +2800,8 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			/*background-color: #505393; Dark Purple*/
+			background-color: #30415D;
 			color: #d3d4e4;
 		}
 
@@ -3160,7 +3162,11 @@
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		/*background: #21b2a6; Teal*/
+		/*background: #984B43; Rust*/
+		/*background: #66AB8C; Leaf*/
+		/*background: #505393; Dark Purple*/
+		background: #4484CE;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3278,7 +3284,8 @@
 
 			#header h1 a {
 				border: 0;
-				display: block;
+				/*display: block;*/
+				display: inline;
 				height: inherit;
 				line-height: inherit;
 			}
@@ -3523,7 +3530,8 @@
 
 			#banner {
 				padding: 7em 3em 5em 3em ;
-				height: auto;
+				/*height: auto;*/
+				height: 100vh;
 				min-height: 0;
 			}
 
@@ -3535,9 +3543,9 @@
 					display: none;
 				}
 
-				#banner .more {
+				/*#banner .more {
 					display: none;
-				}
+				}*/
 
 		}
 
@@ -3800,10 +3808,10 @@
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner(mobile).jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner(mobile).jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner(mobile).jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner(mobile).jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;

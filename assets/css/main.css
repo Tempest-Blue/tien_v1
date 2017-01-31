@@ -2429,8 +2429,7 @@
 			.features li:before {
 				display: block;
 				/*color: #00ffcc; Teal*/
-				/*color: #4484CE; Blue*/
-				color: #505393;
+				color: #4484CE; Blue
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;

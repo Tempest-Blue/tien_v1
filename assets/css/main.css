@@ -3162,7 +3162,8 @@
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
 		/*background: #21b2a6; Teal*/
-		background: #984B43;
+		/*background: #984B43; Rust*/
+		background: #66AB8C;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;

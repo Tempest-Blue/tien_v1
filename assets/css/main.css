@@ -1922,18 +1922,15 @@
 			}
 
 		.icon.style1 {
-			/*color: #00ffcc;*/
-			color: #4484CE;
+			color: #00ffcc;
 		}
 
 		.icon.style2 {
-			/*color: #00f0ff;*/
-			color: #4484CE;
+			color: #00f0ff;
 		}
 
 		.icon.style3 {
-			/*color: #76ddff;*/
-			color: #4484CE;
+			color: #76ddff;
 		}
 
 /* Image */
@@ -2431,7 +2428,8 @@
 
 			.features li:before {
 				display: block;
-				color: #00ffcc;
+				/*color: #00ffcc;*/
+				color: #4484CE;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;

@@ -6,7 +6,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-/* test */
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -2428,8 +2428,7 @@
 
 			.features li:before {
 				display: block;
-				/*color: #00ffcc; Teal*/
-				color: #4484CE; Blue
+				color: #00ffcc;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -2800,8 +2799,7 @@
 		}
 
 		.wrapper.style3 {
-			/*background-color: #505393; Dark Purple*/
-			background-color: #30415D;
+			background-color: #505393;
 			color: #d3d4e4;
 		}
 
@@ -3162,11 +3160,7 @@
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		/*background: #21b2a6; Teal*/
-		/*background: #984B43; Rust*/
-		/*background: #66AB8C; Leaf*/
-		/*background: #505393; Dark Purple*/
-		background: #4484CE;
+		background: #21b2a6;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3284,8 +3278,7 @@
 
 			#header h1 a {
 				border: 0;
-				/*display: block;*/
-				display: inline;
+				display: block;
 				height: inherit;
 				line-height: inherit;
 			}
@@ -3530,8 +3523,7 @@
 
 			#banner {
 				padding: 7em 3em 5em 3em ;
-				height: 100vh;
-				/*height: auto;*/
+				height: auto;
 				min-height: 0;
 			}
 
@@ -3543,9 +3535,9 @@
 					display: none;
 				}
 
-				/*#banner .more {
+				#banner .more {
 					display: none;
-				}*/
+				}
 
 		}
 
@@ -3808,10 +3800,10 @@
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner(mobile).jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner(mobile).jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner(mobile).jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner(mobile).jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;

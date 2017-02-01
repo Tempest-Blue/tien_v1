@@ -2404,6 +2404,7 @@
 
 			.features li:nth-child(5) {
 				background-color: rgba(0, 0, 0, 0.175);
+				width: 100%;
 			}
 
 			.features li:nth-child(6) {
